@@ -1,4 +1,4 @@
-package ioc.safari.server;
+package ioc.safari.server.controller;
 
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -11,7 +11,7 @@ import java.io.*;
  */
 
 public class Connexio {
-    final int PORT=5000;
+    final int PORT=9999;
     ServerSocket serverSocket;
     Socket socket;
     DataOutputStream sortida;

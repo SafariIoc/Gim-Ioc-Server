@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7e0fd74-2d5f-481c-8647-f85f4b614e7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ioc/safari/server/Servidor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ioc/safari/server/Usuari.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ioc/safari/server/connexiobd/DBConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ioc/safari/server/controller/DBConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ioc/safari/server/controller/FilServidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ioc/safari/server/model/Usuari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ioc/safari/server/sqlscripts/script.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ioc/safari/server/view/Servidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ClientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gim-Ioc-Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Gim-Ioc-Server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ioc/safari/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ioc/safari/server/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ioc/safari/server/Servidor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ioc/safari/server/Usuari.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ioc/safari/server/connexiobd/DBConnect.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,28 +41,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-11",
-    "last_opened_file_path": "C:/Users/alber/IdeaProjects/Gim-Ioc-Server",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/alber/OneDrive/JavaProjects/LibreríasExternas/json-simple-1.1.1.jar&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ioc.safari.server.Main" />
       <module name="Gim-Ioc-Server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ioc.safari.server.*" />
+          <option name="PATTERN" value="ioc.safari.server.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,7 +95,25 @@
       <workItem from="1666548092665" duration="1332000" />
       <workItem from="1666638070294" duration="4025000" />
       <workItem from="1666696345404" duration="2608000" />
-      <workItem from="1666724329373" duration="400000" />
+      <workItem from="1666724329373" duration="2175000" />
+      <workItem from="1666977100849" duration="490000" />
+      <workItem from="1667002614672" duration="1087000" />
+      <workItem from="1667069251183" duration="31000" />
+      <workItem from="1667070529008" duration="1428000" />
+      <workItem from="1667161508492" duration="10178000" />
+      <workItem from="1667324435966" duration="1561000" />
+      <workItem from="1667592170558" duration="1944000" />
+      <workItem from="1667922042183" duration="493000" />
+      <workItem from="1668379260421" duration="28000" />
+      <workItem from="1668455050894" duration="1772000" />
+      <workItem from="1668527534628" duration="1261000" />
+      <workItem from="1668603104234" duration="2409000" />
+      <workItem from="1668691816810" duration="1031000" />
+      <workItem from="1668776055965" duration="1809000" />
+      <workItem from="1668804613493" duration="2380000" />
+      <workItem from="1668864422284" duration="1760000" />
+      <workItem from="1668957594629" duration="10308000" />
+      <workItem from="1669022890927" duration="3835000" />
     </task>
     <servers />
   </component>
@@ -105,5 +130,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Gim-Ioc-Server" />
+    </ignored-roots>
   </component>
 </project>
